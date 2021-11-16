@@ -17,6 +17,10 @@ func dateFormat(date: Date) -> String? {
     return dateFormatter.string(from: date)
 }
 
+//listen i know i shouldnt do this in the contentview
+//but if i didnt i would cry
+//and do u want me to cry??? do u???
+
 class JSONLoad {
     
     class func load(jsonFileName: String) -> ObservationSet? {
